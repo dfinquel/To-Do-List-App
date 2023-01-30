@@ -7,6 +7,8 @@ function newItem() {
     let li = $('<li></li>');
     //Set inputValue variable to be the value of all elements with ID "input".
     let inputValue = $('#input').val();
+    //Append inputValue as a child of li.
+    li.append(inputValue);
 
 //Crossing out an item from the list of items:
 
