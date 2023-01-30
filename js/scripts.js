@@ -3,6 +3,9 @@ function newItem() {
 
 //Adding a new item to the list of items:
 
+    //Set li variable to create a new element <li> in the DOM.
+    let li = $('<li></li>');
+
 //Crossing out an item from the list of items:
 
 //Adding the delete button "X":
