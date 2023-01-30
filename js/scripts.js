@@ -19,6 +19,11 @@ function newItem() {
 
 //Crossing out an item from the list of items:
 
+    //Add event listener, so when user double clicks on li element, li element toggles on/off its "strike" class(targeted by CSS).
+    li.on('dblclick', function crossOut() {
+        li.toggleClass('strike');
+    });
+
 //Adding the delete button "X":
 
 //Adding CLASS DELETE (DISPLAY: NONE) from the css:
