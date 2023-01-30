@@ -35,6 +35,12 @@ function newItem() {
 
 //Adding CLASS DELETE (DISPLAY: NONE) from the css:
 
+    //Add event listener, so when user clicks on crossOutButton element, li element is assigned a "delete" class(targeted by CSS).
+    crossOutButton.on('click', deleteListItem);
+    function deleteListItem() {
+        li.addClass('delete')
+    }
+
 //Reordering the items:
 
 }
