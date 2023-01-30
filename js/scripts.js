@@ -28,6 +28,8 @@ function newItem() {
 
     //Set crossOutButton variable to create a new element <crossOutButton> in the DOM.
     let crossOutButton =$('<crossOutButton></crossOutButton>');
+    //Create a new node with inner text "X", and append it as a child of crossOutButton.
+    crossOutButton.append(document.createTextNode('X'));
 
 //Adding CLASS DELETE (DISPLAY: NONE) from the css:
 
