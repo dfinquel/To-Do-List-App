@@ -30,6 +30,8 @@ function newItem() {
     let crossOutButton =$('<crossOutButton></crossOutButton>');
     //Create a new node with inner text "X", and append it as a child of crossOutButton.
     crossOutButton.append(document.createTextNode('X'));
+    //Append crossOutButton as a child of li.
+    li.append(crossOutButton);
 
 //Adding CLASS DELETE (DISPLAY: NONE) from the css:
 
