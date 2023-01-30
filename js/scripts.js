@@ -13,6 +13,8 @@ function newItem() {
     if(inputValue === '') {
         alert('You must write something!');
       } else {
+        //Append li as a child of all elements with ID "list".
+        $('#list').append(li);
     }
 
 //Crossing out an item from the list of items:
