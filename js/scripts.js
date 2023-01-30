@@ -12,7 +12,7 @@ function newItem() {
 
     if(inputValue === '') {
         alert('You must write something!');
-      } else {
+    } else {
         //Append li as a child of all elements with ID "list".
         $('#list').append(li);
     }
@@ -45,5 +45,4 @@ function newItem() {
 
     //Allows all elements with ID "list" to be sortable.
     $('#list').sortable();
-
 }
