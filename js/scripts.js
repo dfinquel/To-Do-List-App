@@ -43,4 +43,7 @@ function newItem() {
 
 //Reordering the items:
 
+    //Allows all elements with ID "list" to be sortable.
+    $('#list').sortable();
+
 }
