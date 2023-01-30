@@ -26,6 +26,9 @@ function newItem() {
 
 //Adding the delete button "X":
 
+    //Set crossOutButton variable to create a new element <crossOutButton> in the DOM.
+    let crossOutButton =$('<crossOutButton></crossOutButton>');
+
 //Adding CLASS DELETE (DISPLAY: NONE) from the css:
 
 //Reordering the items:
