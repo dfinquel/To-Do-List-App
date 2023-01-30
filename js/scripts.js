@@ -5,6 +5,8 @@ function newItem() {
 
     //Set li variable to create a new element <li> in the DOM.
     let li = $('<li></li>');
+    //Set inputValue variable to be the value of all elements with ID "input".
+    let inputValue = $('#input').val();
 
 //Crossing out an item from the list of items:
 
