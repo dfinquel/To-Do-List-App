@@ -10,6 +10,11 @@ function newItem() {
     //Append inputValue as a child of li.
     li.append(inputValue);
 
+    if(inputValue === '') {
+        alert('You must write something!');
+      } else {
+    }
+
 //Crossing out an item from the list of items:
 
 //Adding the delete button "X":
